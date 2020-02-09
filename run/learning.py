@@ -6,6 +6,8 @@ learning.py
 
 A Python 3 tutorial from https://www.liaoxuefeng.com
 
+原理：https://www.liaoxuefeng.com/wiki/1016959663602400/1018877595088352
+
 Usage:
 
 $ python3 learning.py
