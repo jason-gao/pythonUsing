@@ -30,7 +30,6 @@ if age >= 18:
 else:
     print('teenager')
 
-
 # 空值
 # None
 

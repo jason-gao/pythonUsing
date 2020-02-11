@@ -7,13 +7,14 @@ classmates = ('Michael', 'Bob', 'Tracy')
 print(classmates)
 print(classmates[0], classmates[-1])
 
-
 t = ()
 print(t)
 
+# 数字1 非tuple
 t = (1)
 print(t)
 
+# 字符串a，非tuple
 t = ('a')
 print(t)
 

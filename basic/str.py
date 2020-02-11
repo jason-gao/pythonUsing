@@ -30,7 +30,7 @@ print(b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore'))
 # 字符数
 print(len('ABC'), len('中文'))
 # 字节数
-print(len(b'ABC'),len(b'\xe4\xb8\xad\xe6\x96\x87'),len('中文'.encode('utf-8')))
+print(len(b'ABC'), len(b'\xe4\xb8\xad\xe6\x96\x87'), len('中文'.encode('utf-8')))
 
 # 字符串格式化
 # %d 整数
@@ -50,9 +50,8 @@ print('Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125))
 
 s1 = 72
 s2 = 85
-r = (1-72/85)*100
+r = (1 - 72 / 85) * 100
 print('提升了 {0:.1f}%'.format(r))
 print('提升了 %.1f%%' % r)
 
 print('中文'.encode('gb2312'))
-

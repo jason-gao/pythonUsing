@@ -8,7 +8,7 @@ classmates = ['Michael', 'Bob', 'Tracy']
 
 print(classmates)
 print(len(classmates))
-print(classmates[0], classmates[1],classmates[2])
+print(classmates[0], classmates[1], classmates[2])
 # IndexError: list index out of range
 # print(classmates[3])
 
@@ -18,7 +18,6 @@ print(classmates[0], classmates[1],classmates[2])
 print(classmates[-1])
 print(classmates[-2])
 print(classmates[-3])
-
 
 # list是一个可变的有序表，所以，可以往list中追加元素到末尾
 classmates.append('Adam')
@@ -55,4 +54,3 @@ print(s[0])
 
 L = []
 print(len(L))
-
