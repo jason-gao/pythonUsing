@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# https://www.cnblogs.com/blogsxyz/p/9019836.html
 # 计算机只能处理数字，如果要处理文本，就必须先把文本转换为数字才能处理
 # 1字节 11111111 255 2个字节 65535  4个字节 4294967295
 # 最早只有127个字符被编码到计算机里，也就是大小写英文字母、数字和一些符号，这个编码表被称为ASCII编码 A 65 z 122
@@ -55,3 +56,28 @@ print('提升了 {0:.1f}%'.format(r))
 print('提升了 %.1f%%' % r)
 
 print('中文'.encode('gb2312'))
+
+
+str_name1 = 'To'
+str_name2 = 'ny'
+str_name = str_name1 + str_name2
+print(str_name)
+
+number=34
+
+print('这个数是:'+str(number))
+
+
+# method4 使用逗号(,)连接
+# 使用,逗号形式要注意一点，就是只能用于print打印，赋值操作会生成元组:
+print('-----------method4-----------')
+a, b = 'Hello', 'word'
+c = a, b
+print(a, b)
+print(c)
+print(type(c))
+
+# mehon5 直接连接
+print('-----------method5-----------')
+
+print('hello' 'python')
